@@ -1,0 +1,24 @@
+---
+---
+
+@import "type-on-strap";
+
+// Uniform portfolio thumbnails: every project image gets the same 4:3 shape,
+// cropped cleanly with object-fit instead of rendering at its natural size.
+.portfolio-cell img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.3333;
+  object-fit: cover;
+}
+
+// Tighter portfolio grid: small gutters instead of space-around,
+// rows centered.
+.portfolio-grid {
+  justify-content: center;
+}
+
+.portfolio-cell {
+  flex: 0 0 32%;
+  margin: 0 0.66% 12px;
+}

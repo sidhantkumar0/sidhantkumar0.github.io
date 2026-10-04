@@ -1,0 +1,13 @@
+# Main navigation — only these links appear in the navbar, in this order.
+- about:
+  title: About Me
+  url: /about/
+- projects:
+  title: Projects
+  url: /projects/
+- experience:
+  title: Experience
+  url: /experience/
+- blog:
+  title: Blog
+  url: /blog/

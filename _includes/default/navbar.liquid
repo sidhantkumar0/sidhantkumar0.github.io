@@ -1,0 +1,36 @@
+<header class="site-header">
+
+    <!-- Logo and title -->
+    <div class="branding">
+        {% if site.avatar %}
+        <a href="{{ '/' | relative_url }}">
+            <img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" loading="lazy"/>
+        </a>
+        {% endif %}
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+        {{ site.title }}
+        </a>
+    </div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu: only links defined in _data/menu.yml, in file order -->
+    <ul class="hide">
+        {% for link in site.data.menu %}
+        {% unless link.hide %}
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="{{ link.title }}" title="{{ link.title }}" href="{{ link.url | relative_url }}">
+                    <span class="navbar-label">{{ link.title }}</span>
+                </a>
+            </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+
+    </nav>
+</header>

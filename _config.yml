@@ -1,0 +1,35 @@
+title: Sidhant Kumar
+description: "Sidhant Kumar's personal website — homelab blogging, projects, and experience."
+url: "https://sidhantkumar0.github.io"
+baseurl: ""
+
+remote_theme: sylhare/Type-on-Strap
+
+# Branding
+avatar: assets/img/avatar.png
+color_theme: dark
+
+header_text: "Sidhant Kumar"
+footer_text: "© 2026 Sidhant Kumar"
+
+excerpt: true
+post_navigation: true
+
+# Blog
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Portfolio collection
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+permalink: /:year-:month-:day/:title
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap

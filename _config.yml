@@ -6,7 +6,7 @@ baseurl: ""
 remote_theme: sylhare/Type-on-Strap
 
 # Branding
-avatar: assets/img/avatar.png
+avatar: assets/avatar.png
 color_theme: dark
 
 header_text: "Sidhant Kumar"

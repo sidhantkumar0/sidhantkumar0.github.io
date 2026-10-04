@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Arduino Temperature & Humidity Sensor
-feature-img: "assets/img/WhatsApp Image 2026-10-02 at 1.15.17 PM (1).jpeg"
-img: "assets/img/WhatsApp Image 2026-10-02 at 1.15.17 PM (1).jpeg"
+feature-img: "assets/WhatsApp Image 2026-10-02 at 1.15.17 PM (1).jpeg"
+img: "assets/WhatsApp Image 2026-10-02 at 1.15.17 PM (1).jpeg"
 date: 20 September 2026
 tags: [Arduino, Monitoring, Homelab]
 ---

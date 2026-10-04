@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Homelab Network Infrastructure
-feature-img: "assets/img/Updated_Topo.png"
-img: "assets/img/Updated_Topo.png"
+feature-img: "assets/Updated_Topo.png"
+img: "assets/Updated_Topo.png"
 date: 10 June 2026
 tags: [Networking, Cisco, Homelab]
 ---

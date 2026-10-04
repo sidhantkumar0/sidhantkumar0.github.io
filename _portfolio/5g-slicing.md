@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Virtualized 5G Network Slicing
-feature-img: "assets/img/dashboard-5g.png"
-img: "assets/img/dashboard-5g.png"
+feature-img: "assets/dashboard-5g.png"
+img: "assets/dashboard-5g.png"
 date: 15 April 2026
 tags: [5G, Networking, Capstone]
 ---

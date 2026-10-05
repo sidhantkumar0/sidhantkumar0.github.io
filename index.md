@@ -7,8 +7,7 @@ hide: true
 <div class="home-hero">
   <p class="home-tagline">Network Technology Graduate</p>
   <div class="home-cta">
-    <a class="home-btn" href="{{ '/projects/' | relative_url }}">View Projects</a>
-    <a class="home-btn home-btn-secondary" href="{{ '/assets/Sidhant%20Kumar%20Resume.pdf' | relative_url }}">Download Resume</a>
+    <a class="home-btn" href="{{ '/assets/Sidhant%20Kumar%20Resume.pdf' | relative_url }}">Download Resume</a>
   </div>
 </div>
 

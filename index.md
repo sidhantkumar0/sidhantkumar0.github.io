@@ -5,6 +5,7 @@ hide: true
 ---
 
 <div class="home-hero">
+  <!-- Hero photo: Sidhant's profile.jpg goes here once uploaded to assets/ -->
   <p class="home-tagline">Network Technology Graduate</p>
   <div class="home-cta">
     <a class="home-btn" href="{{ '/assets/Sidhant%20Kumar%20Resume.pdf' | relative_url }}">Download Resume</a>

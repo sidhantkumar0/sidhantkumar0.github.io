@@ -83,19 +83,21 @@ html.js .reveal.visible {
 }
 /* Portrait photo */
 .about-photo {
-  display: block;
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: center 28%;
+  background-image: url("{{ '/assets/profile.jpeg' | relative_url }}");
+  background-size: cover;
+  background-position: center 28%;
+  background-repeat: no-repeat;
+  background-color: #0d1420;
   margin: 0 auto 1.25rem;
   border: 3px solid rgba(34, 211, 238, 0.55);
   box-shadow: 0 0 26px rgba(34, 211, 238, 0.25);
 }
 </style>
 
-<img class="about-photo reveal" src="{{ '/assets/profile.jpeg' | relative_url }}" alt="Photo of Sidhant Kumar">
+<div class="about-photo" role="img" aria-label="Photo of Sidhant Kumar"></div>
 
 <h2 class="about-greeting"><span id="typed-greeting">Hi, I'm Sidhant Kumar,</span><span class="typing-cursor" aria-hidden="true">▍</span></h2>
 

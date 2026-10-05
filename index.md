@@ -5,7 +5,6 @@ hide: true
 ---
 
 <div class="home-hero">
-  <img class="home-logo" src="{{ 'assets/avatar.png' | relative_url }}" alt="Sidhant Kumar logo">
   <p class="home-tagline">Network Technology Graduate</p>
   <div class="home-cta">
     <a class="home-btn" href="{{ '/projects/' | relative_url }}">View Projects</a>

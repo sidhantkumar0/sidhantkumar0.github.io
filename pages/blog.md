@@ -7,8 +7,11 @@ position: 4
 ---
 
 <style>
-/* Blog page title only: match the purple used by other titles. */
+/* Blog page titles only: match the purple used by other titles. */
 h1.title { color: #b37eff; }
+h2 a, h2 a:visited,
+.post-content h2 a, .post-content h2 a:visited { color: #b37eff; }
+.post-content h2 a:visited { filter: none; }
 </style>
 
 {% for post in site.posts %}

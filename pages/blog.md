@@ -11,6 +11,8 @@ h1.title { color: #b37eff; }
 /* Post date under each listing title: small, muted, snug under its title. */
 .blog-entry h2 { margin-bottom: 0.25rem; }
 .blog-date { color: var(--meta); font-size: 0.9em; margin: 0 0 1.25rem; }
+/* Divider between posts: quiet 1px line that stays out of the way of the page background. */
+hr { border: none; height: 1px; background: #2e3742; }
 </style>
 
 {% for post in site.posts %}

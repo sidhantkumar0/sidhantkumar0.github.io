@@ -57,6 +57,8 @@ IoT Sensor Workload: I migrated an old Arduino temperature and humidity sensorâ€
 
 ![Arduino temperature and humidity sensor](/assets/WhatsApp%20Image%202026-10-02%20at%201.15.17%20PM%20%281%29.jpeg)
 
+TriliumNext: My notes, links, and IP ranges now live here too, after NetBox lasted a day.
+
 3 Honest Gotchas Before You Build Your Own
 
 If you're thinking about tackling a similar project, keep these three constraints in mind:

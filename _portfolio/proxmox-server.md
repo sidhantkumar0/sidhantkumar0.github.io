@@ -10,4 +10,6 @@ tags: [Proxmox, Virtualization, Homelab]
 *Work in progress*
 
 - Old desktop PC converted into a Proxmox virtualization host
-- Planned: Proxmox Backup Server, Pi-hole, and a NAS once internal drives arrive
+- 2TB WD Red drive installed and passed its health check, waiting on the NAS build
+- Local AI test VM running Ollama with Open WebUI
+- Planned: Proxmox Backup Server, Pi-hole, and a NAS, with TrueNAS and Nextcloud the current leaning

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Proxmox Server
-feature-img: "assets/WhatsApp Image 2026-10-02 at 1.15.17 PM.jpeg"
-img: "assets/WhatsApp Image 2026-10-02 at 1.15.17 PM.jpeg"
+feature-img: "/assets/proxmox-server.jpg"
+img: "/assets/proxmox-server.jpg"
 date: 1 October 2026
 tags: [Proxmox, Virtualization, Homelab]
 ---

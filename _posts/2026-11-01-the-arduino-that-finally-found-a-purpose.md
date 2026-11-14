@@ -22,7 +22,7 @@ A small Python script reads three numbers off the serial port: temperature, humi
 
 The dashboard now holds a week of readings. Temperature sits around 25 to 27 degrees, and the heat index tracks close behind it. It is not a hot cabinet, which is good news, but now I would know if that changed.
 
-![The arduino exporter and the monitoring stack running as services in the cluster](/assets/headlamp-cluster-services.jpg)
+<img src="/assets/headlamp-cluster-services.jpg" alt="The arduino exporter and the monitoring stack running as services in the cluster" style="width: 100%;">
 
 Two things went wrong along the way, and both were worth learning from. The first was the dashboard itself. One morning it showed no data at all, even though the sensor was fine and Prometheus had the readings. The problem was the dashboard time range, which had been left on a fixed window in the past. The data was there, the graph was just looking at the wrong hours. The second was simpler. I took the wires out and put them back, and the first thing I checked was whether the graphs came back live. They did, within a minute.
 

@@ -3,7 +3,7 @@ layout: post
 title: "From Dusty Drawer to Tiny Cloud: Building a Kubernetes Cluster with Four Raspberry Pis"
 date: 2026-10-11
 tags: [Kubernetes, Raspberry Pi, Homelab]
-feature-img: "assets/WhatsApp Image 2026-10-02 at 1.15.17 PM (2).jpeg"
+feature-img: "/assets/four-pi-cluster.jpg"
 ---
 
 I had two Raspberry Pis lying around in a drawer, constantly staring at me with unused potential. They’re lightweight, energy-efficient, and far too capable to just sit there gathering dust. Driven by the itch to build something cool, I decided to build a homelab cluster—and quickly picked up two more Pis off Facebook Marketplace to round the squad out to four.
@@ -31,7 +31,7 @@ pi-server1, pi-server2, pi-server4: The worker nodes handling the workloads.
 └──────────────┘   └──────────────┘   └──────────────┘   └──────────────┘
 ```
 
-![The four Pi cluster](/assets/WhatsApp%20Image%202026-10-02%20at%201.15.17%20PM%20%282%29.jpeg)
+![The four Pi cluster](/assets/four-pi-cluster.jpg)
 
 Network isolation was a big priority for me. The entire cluster lives on its own dedicated network (VLAN 20, isolated on the 192.168.20.x subnet) trunked off my Cisco 3850 switch. This keeps my experimental lab traffic completely segregated from the rest of my home network.
 
@@ -55,7 +55,7 @@ Prometheus Stack: Full-fledged monitoring and metric collection across the entir
 
 IoT Sensor Workload: I migrated an old Arduino temperature and humidity sensor—which previously ran as a basic Python script on a single Pi—into a containerized pod inside the cluster. It now streams live environmental metrics directly into Prometheus.
 
-![Arduino temperature and humidity sensor](/assets/WhatsApp%20Image%202026-10-02%20at%201.15.17%20PM%20%281%29.jpeg)
+![Arduino temperature and humidity sensor](/assets/arduino-uno-dht11.jpg)
 
 TriliumNext: My notes, links, and IP ranges now live here too, after NetBox lasted a day.
 

@@ -7,7 +7,7 @@ remote_theme: sylhare/Type-on-Strap
 
 # Branding
 avatar: assets/avatar.png
-color_theme: dark
+color_theme: light
 
 header_text: "Sidhant Kumar"
 footer_text: "© 2026 Sidhant Kumar"

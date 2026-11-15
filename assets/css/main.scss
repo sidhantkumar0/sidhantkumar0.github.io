@@ -108,7 +108,7 @@ html[data-theme="dark"] body {
 }
 // Slate & Teal (light) colour scheme.
 html, html[data-theme="light"] {
-  --background: #FFFFFF;
+  --background: #F5F0E6;
   --text: #334155;
   --meta: #64748B;
   --link: #0E7490;
@@ -119,12 +119,12 @@ html, html[data-theme="light"] {
   --h5: #0F766E;
   --h6: #0F766E;
   --border: #E2E8F0;
-  --blockquote: #F1F5F9;
+  --blockquote: #FFFFFF;
   --blockquote-border: #0E7490;
   --code-background: #0F172A;
   --code-inline: #E2E8F0;
   --selection: #CCFBF1;
-  --header-background: #FFFFFF;
+  --header-background: #F5F0E6;
   --header-text: #0F2040;
   --header-link: #0F2040;
   --search-highlight: rgba(14, 116, 144, 0.35);

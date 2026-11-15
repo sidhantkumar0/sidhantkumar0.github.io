@@ -46,7 +46,7 @@
   display: inline-block;
   padding: 0.6rem 1.4rem;
   border-radius: 999px;
-  background: #C2410C;
+  background: #0F766E;
   color: #FFFFFF;
   font-weight: 600;
   text-decoration: none;
@@ -57,7 +57,7 @@
 }
 .home-btn-secondary {
   background: transparent;
-  border: 1px solid #D6D3D1;
+  border: 1px solid #E2E8F0;
   color: inherit;
 }
 .home-featured {
@@ -73,7 +73,7 @@
 }
 .home-card {
   display: block;
-  border: 1px solid #E7E5E4;
+  border: 1px solid #E2E8F0;
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -82,7 +82,7 @@
 }
 .home-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(194, 65, 12, 0.6);
+  border-color: rgba(15, 118, 110, 0.6);
   text-decoration: none;
 }
 .home-card img {
@@ -106,27 +106,26 @@ html[data-theme="dark"] body {
   background-size: 400px 400px;
   background-attachment: fixed;
 }
-
-// Ink & Rust (light) colour scheme.
+// Slate & Teal (light) colour scheme.
 html, html[data-theme="light"] {
   --background: #FFFFFF;
-  --text: #44403C;
-  --meta: #78716C;
-  --link: #C2410C;
-  --h1: #9A3412;
-  --h2: #9A3412;
-  --h3: #9A3412;
-  --h4: #9A3412;
-  --h5: #9A3412;
-  --h6: #9A3412;
-  --border: #E7E5E4;
-  --blockquote: #F7F3EF;
-  --blockquote-border: #C2410C;
-  --code-background: #1C1917;
-  --code-inline: #FED7AA;
-  --selection: #FFEDD5;
-  --header-background: #1C1917;
-  --header-text: #FAF7F2;
-  --header-link: #FED7AA;
-  --search-highlight: rgba(194, 65, 12, 0.35);
+  --text: #334155;
+  --meta: #64748B;
+  --link: #0E7490;
+  --h1: #0F766E;
+  --h2: #0F766E;
+  --h3: #0F766E;
+  --h4: #0F766E;
+  --h5: #0F766E;
+  --h6: #0F766E;
+  --border: #E2E8F0;
+  --blockquote: #F1F5F9;
+  --blockquote-border: #0E7490;
+  --code-background: #0F172A;
+  --code-inline: #E2E8F0;
+  --selection: #CCFBF1;
+  --header-background: #0F2040;
+  --header-text: #FFFFFF;
+  --header-link: #CCFBF1;
+  --search-highlight: rgba(14, 116, 144, 0.35);
 }

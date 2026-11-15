@@ -6,6 +6,8 @@ tags: [Kubernetes, Raspberry Pi, Homelab]
 feature-img: "/assets/four-pi-cluster.jpg"
 ---
 
+<img src="/assets/four-pi-cluster.jpg" alt="Four Raspberry Pis in the cluster" class="post-feature-img">
+
 I had two Raspberry Pis lying around in a drawer, constantly staring at me with unused potential. They’re lightweight, energy-efficient, and far too capable to just sit there gathering dust. Driven by the itch to build something cool, I decided to build a homelab cluster—and quickly picked up two more Pis off Facebook Marketplace to round the squad out to four.
 
 My main goal? Learn DevOps hands-on.

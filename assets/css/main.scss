@@ -10,7 +10,7 @@
   display: block;
   width: 100%;
   aspect-ratio: 1.3333;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 // Tighter portfolio grid: small gutters instead of space-around,
@@ -89,7 +89,7 @@
   display: block;
   width: 100%;
   aspect-ratio: 1.3333;
-  object-fit: cover;
+  object-fit: contain;
 }
 .home-card-title {
   display: block;
@@ -145,7 +145,7 @@ article.feature-image header#main {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 10px;
   margin: 0 0 1.5rem;
 }
@@ -155,7 +155,7 @@ article.feature-image header#main {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 10px;
   margin: 0 0 1.5rem;
 }

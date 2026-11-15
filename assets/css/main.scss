@@ -129,3 +129,8 @@ html, html[data-theme="light"] {
   --header-link: #0F2040;
   --search-highlight: rgba(14, 116, 144, 0.35);
 }
+
+/* Page titles (Blog, About, etc.) use the Slate and Teal heading colour. */
+h1.title {
+  color: #0F766E;
+}

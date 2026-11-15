@@ -134,3 +134,18 @@ html, html[data-theme="light"] {
 h1.title {
   color: #0F766E;
 }
+
+/* Post feature images: keep them out from behind the title. */
+article.feature-image header#main {
+  background-image: none !important;
+}
+
+/* Feature image shown in the post content: one uniform size on every post. */
+.post-feature-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 0 1.5rem;
+}

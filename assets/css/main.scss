@@ -130,9 +130,9 @@ html, html[data-theme="light"] {
   --search-highlight: rgba(14, 116, 144, 0.35);
 }
 
-/* Page titles (Blog, About, etc.) use the Slate and Teal heading colour. */
+/* Page titles: dark navy for strong contrast on the beige background. */
 h1.title {
-  color: #0F766E;
+  color: #0F2040;
 }
 
 /* Post feature images: keep them out from behind the title. */
@@ -142,6 +142,16 @@ article.feature-image header#main {
 
 /* Feature image shown in the post content: one uniform size on every post. */
 .post-feature-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 0 1.5rem;
+}
+
+/* All pictures in a post: one uniform size so they are symmetrical. */
+.post-content img {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;

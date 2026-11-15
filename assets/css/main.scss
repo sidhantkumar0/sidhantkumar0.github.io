@@ -159,3 +159,10 @@ article.feature-image header#main {
   border-radius: 10px;
   margin: 0 0 1.5rem;
 }
+
+/* Titles: no text shadow, it makes them look blurry on the plain background. */
+h1.title,
+.feature-image h1.title,
+.subtitle {
+  text-shadow: none;
+}

@@ -6,6 +6,8 @@ tags: [Arduino, Monitoring, Homelab]
 feature-img: "/assets/arduino-on-cisco-3850.jpg"
 ---
 
+<img src="/assets/arduino-on-cisco-3850.jpg" alt="Arduino Uno on the Cisco 3850 switch" class="post-feature-img">
+
 I had to buy an Arduino starter kit for my Real Time Systems class. I used it for the class, and when the class was done, the kit went into a drawer and stayed there.
 
 Then I started building a home lab. The cabinet started filling up with the kind of gear that runs warm: a PC I turned into a server, a Cisco 3850, and four Raspberry Pis. I kept wondering if it was getting too hot in there, and I had no way to know. The switch and the server have their own fans and their own warnings, but the cabinet itself had no thermometer at all.

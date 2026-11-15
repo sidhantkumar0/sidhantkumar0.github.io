@@ -6,6 +6,8 @@ tags: [5G, Networking, Capstone]
 feature-img: "assets/dashboard-5g.png"
 ---
 
+<img src="/assets/dashboard-5g.png" alt="5G hospital network dashboard" class="post-feature-img">
+
 Here's a sentence I never thought I'd write: I spent my final year at Carleton attacking a hospital network.
 
 Relax, it was our own virtual one. It was my capstone project at Carleton (Oct 2025 to Apr 2026), and the whole point was to find out whether 5G network slicing could actually protect the traffic that matters most when everything else on the network is falling apart.
